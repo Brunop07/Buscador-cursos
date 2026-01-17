@@ -14,6 +14,9 @@
         "symfony/dom-crawler": "^8.0"
     },
     "autoload": {
+        "files": [
+            "functions.php"
+        ],
         "psr-4": {
             "Alura\\BuscadorDeCursos\\":"src/"
         }
@@ -39,5 +42,7 @@
     },
     "scripts-descriptions":{
         "check": "Roda as verificaçöes do código. PHAN, PHPCS E PHPUNIT"
-    }
+    },
+    "licence": "GPL-3.0",
+    "bim": ["buscar-cursos.php"]
 }
